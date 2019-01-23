@@ -1,2 +1,2 @@
 # Cydia-Repo-Template
-This is a Cydia repo template.
+This is a Cydia repo template by JianFengZhi.
