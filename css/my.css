@@ -1,0 +1,68 @@
+#welcome,
+#packageName,
+#packageShortDesc,
+#checkios,
+#compatibilityCheck,
+#copyright {
+    text-align: center;
+}
+
+#checkios {
+    color: #eb8900;
+}
+
+.fail {
+    background: #FD3C31;
+}
+
+.success {
+    background: #46CA5E;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 0px 3px;
+    color: #fff;
+    text-align: center;
+    background-color: #777;
+    border-radius: 2px;
+}
+
+#cydiaicon {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 10%;
+}
+
+.shot {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 414px;
+}
+
+#welcome {
+    color: #9079F9;
+}
+
+#home {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 12px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 44px;
+    color: #9079F9;
+}
+
+.fa {
+    line-height: 18px;
+}
+
+#contact p {
+    font-size: 14px;
+    line-height: 18px;
+}
