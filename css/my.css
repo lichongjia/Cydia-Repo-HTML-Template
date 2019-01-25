@@ -7,16 +7,40 @@
     text-align: center;
 }
 
-#checkios {
-    color: #eb8900;
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 10%;
 }
 
-.fail {
-    background: #FD3C31;
+.alert span {
+    vertical-align: middle;
 }
 
-.success {
-    background: #46CA5E;
+.alert i {
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+#support {
+    color: #13CE66;
+}
+
+#unsupport {
+    color: #F76260;
+}
+
+#least {
+    color: #13CE66;
+}
+
+#untest {
+    color: #FFBE00;
+}
+
+#only {
+    color: #10AEFF;
 }
 
 .badge {
@@ -29,11 +53,8 @@
     border-radius: 2px;
 }
 
-#cydiaicon {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 10%;
+#shotlist p {
+    text-align: center;
 }
 
 .shot {
@@ -44,10 +65,10 @@
 }
 
 #welcome {
-    color: #9079F9;
+    color: #ff9c41;
 }
 
-#home {
+#homelink {
     display: block;
     position: fixed;
     top: 0px;
@@ -55,14 +76,27 @@
     text-align: left;
     font-size: 18px;
     line-height: 44px;
-    color: #9079F9;
+    color: #ff9c41;
 }
 
-.fa {
-    line-height: 18px;
+#contact p,
+[role=footer] {
+    display: block;
+    margin: 0.5em 0;
+    padding: 0;
 }
 
 #contact p {
+    text-align: center;
     font-size: 14px;
-    line-height: 18px;
+}
+
+#contact p a {
+    margin-right: 0.5em;
+    color: #ff9c41;
+    /*color: #6d6d72;*/
+}
+
+#contact i {
+    color: #fe8c24;
 }

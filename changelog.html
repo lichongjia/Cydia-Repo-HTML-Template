@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>更新记录页模板</title>
+    <title>主页</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
     <!-- 设置网页图标 -->
     <link rel="shortcut icon" href="img/favicon.png">
@@ -12,15 +12,19 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="css/ios7.css">
     <link rel="stylesheet" href="css/my.css">
-    <script src="js/ios7.js"></script>
+    <!-- 导入js脚本 -->
+    <script type="text/javascript" src="js/ios7.js"></script>
 </head>
 
 <body>
+    <!-- 标题区 -->
     <header>
-        <h1>TweakName</h1>
-        <a href=""><i id="home" class="fa fa-home"></i></a>
+        <h1>packageName</h1>
+        <a href="index.html"><i id="homelink" class="fa fa-home"></i></a>
     </header>
+    <!-- 内容区 -->
     <main id="content">
+        <!-- 更新记录 -->
         <section id="block">
             <h2 role="header">1.0.3</h2>
             <ul>
@@ -41,9 +45,15 @@
                 <li>发布第一个版本</li>
             </ul>
         </section>
-        <div id="copyright">
+        <!-- 版权联系 -->
+        <section id="contact" class="block">
             <p role="footer">&copy 2019 见风致</p>
-        </div>
+            <p>
+                <a href="https://github.com/lichongjia"><i class="fa fa-github"></i>GitHub</a>
+                <a href="https://twitter.com/lichongjia"><i class="fa fa-twitter"></i>@lichongjia</a>
+                <a href="https://weibo.com/lichongjia"><i class="fa fa-weibo"></i>新浪微博</a>
+            </p>
+        </section>
     </main>
 </body>
 
